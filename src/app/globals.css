@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  font-family: 'Courier New', Courier, monospace;
+  background: linear-gradient(to right, #e98fe9, #f890f8, #ed7cb5, #f3349a, #ed794e);
+}
+
+
+/*NAVBAR*/
+.w-80{
+  width: 80%;
+}
+.h{
+  height: 600px;
+}
+.hh{
+  height: 1600px;
+}
