@@ -5,9 +5,27 @@
 
 body{
   font-family: 'Courier New', Courier, monospace;
+}
+.home{
   background: linear-gradient(to right, #e98fe9, #f890f8, #ed7cb5, #f3349a, #ed794e);
 }
+@media (max-width: 1200px) {
+  html {
+      font-size: 14.4px; /* 1200px altı ekranlar için */
+  }
+}
 
+@media (max-width: 900px) {
+  html {
+      font-size: 12.8px; /* 900px altı ekranlar için */
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+      font-size: 11.2px; /* 600px altı ekranlar için */
+  }
+}
 
 /*NAVBAR*/
 .w-80{
@@ -15,7 +33,7 @@ body{
 }
 .navbar-link {
   color: black;
-  font-size: 20px;
+  font-size: 1.2rem;
   position: fixed;
   padding: 10px;
   right: 0;
@@ -25,7 +43,7 @@ body{
 }
 .navbar-link:hover {
   text-decoration: none;
-  top: -2px;
+  top: -0.1rem;
   transition: top 3s ease-in-out;
 }
 /*Footer*/
@@ -40,12 +58,16 @@ body{
   transition: top 1s ease-in-out;
 }
 .font-200{
-  font-size: 200px;
+  font-size: 13rem;
   font-weight: 700;
 }
 /*Home Slider*/
 .text-transparent{
   color: transparent;
   -webkit-text-stroke: 1px black;
+}
+.placeholder::placeholder {
+  color: black;
+  font-style: italic; 
 }
 

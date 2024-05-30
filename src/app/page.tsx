@@ -6,21 +6,23 @@ import { NavbarComponent } from "@/components/Navbar";
 export default function Home() {
   return (
     <>
-    <NavbarComponent />
-    <div className="mt-32 font-mono" >
-      <div className="text-8xl font-bold flex justify-start pl-16 mb-8">
-        <h1>
-          Lorem Ipsum
-        </h1>
+    <div className="home">
+      <NavbarComponent />
+      <div className="mt-32 font-mono text-6xl md:text-7xl lg:text-8xl" >
+        <div className="  font-bold flex justify-start pl-16 mb-8">
+          <h1>
+          Qu'est-ce que
+          </h1>
+        </div>
+        <div className="flex justify-end pr-16">
+          <h1>
+          Où puis procurer
+          </h1>
+        </div>
       </div>
-      <div className="text-8xl flex justify-end pr-16">
-        <h1>
-          Lorem Ipsum
-        </h1>
-      </div>
+      <HomeSlider />
+      <Footer />
     </div>
-    <HomeSlider />
-    <Footer />
     </>
   );
 }
