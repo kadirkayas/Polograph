@@ -13,9 +13,39 @@ body{
 .w-80{
   width: 80%;
 }
-.h{
-  height: 600px;
+.navbar-link {
+  color: black;
+  font-size: 20px;
+  position: fixed;
+  padding: 10px;
+  right: 0;
+  text-decoration: none;
+  position: relative;
+  transition: right 0.5s; /* Geçiş efekti ekle */
 }
-.hh{
-  height: 1600px;
+.navbar-link:hover {
+  text-decoration: none;
+  top: -2px;
+  transition: top 3s ease-in-out;
 }
+/*Footer*/
+.footer-link{
+  padding: 10px;
+  text-decoration: underline;
+  position: relative;
+}
+.footer-link:hover{
+  text-decoration: none;
+  top: -2px;
+  transition: top 1s ease-in-out;
+}
+.font-200{
+  font-size: 200px;
+  font-weight: 700;
+}
+/*Home Slider*/
+.text-transparent{
+  color: transparent;
+  -webkit-text-stroke: 1px black;
+}
+

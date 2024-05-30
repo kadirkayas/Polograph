@@ -1,3 +1,4 @@
+import { Footer } from "@/components/Footer";
 import { HomeSlider } from "@/components/HomeSlider";
 import { NavbarComponent } from "@/components/Navbar";
 
@@ -6,7 +7,7 @@ export default function Home() {
   return (
     <>
     <NavbarComponent />
-    <div className="mt-64">
+    <div className="mt-32 font-mono" >
       <div className="text-8xl font-bold flex justify-start pl-16 mb-8">
         <h1>
           Lorem Ipsum
@@ -19,6 +20,7 @@ export default function Home() {
       </div>
     </div>
     <HomeSlider />
+    <Footer />
     </>
   );
 }
