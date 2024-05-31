@@ -1,6 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 
 body{
@@ -9,21 +9,27 @@ body{
 .home{
   background: linear-gradient(to right, #e98fe9, #f890f8, #ed7cb5, #f3349a, #ed794e);
 }
+.about{
+  background: linear-gradient(to right, #f0b82d, #f37024, #e50914, #de0411, #f32c36);
+}
+.service{
+  background: linear-gradient(to right, #00bfff, #80dfff, #c0e7ff, #f0f0b4, #f0e68c);
+}
 @media (max-width: 1200px) {
   html {
-      font-size: 14.4px; /* 1200px altı ekranlar için */
+      font-size: 14.4px; 
   }
 }
 
 @media (max-width: 900px) {
   html {
-      font-size: 12.8px; /* 900px altı ekranlar için */
+      font-size: 12.8px; 
   }
 }
 
 @media (max-width: 600px) {
   html {
-      font-size: 11.2px; /* 600px altı ekranlar için */
+      font-size: 11.2px; 
   }
 }
 
@@ -39,11 +45,11 @@ body{
   right: 0;
   text-decoration: none;
   position: relative;
-  transition: right 0.5s; /* Geçiş efekti ekle */
+  transition: right 0.5s; /*not run? */
 }
 .navbar-link:hover {
   text-decoration: none;
-  top: -0.1rem;
+  top: -0.2px;
   transition: top 3s ease-in-out;
 }
 /*Footer*/
@@ -57,10 +63,6 @@ body{
   top: -2px;
   transition: top 1s ease-in-out;
 }
-.font-200{
-  font-size: 13rem;
-  font-weight: 700;
-}
 /*Home Slider*/
 .text-transparent{
   color: transparent;
@@ -68,6 +70,6 @@ body{
 }
 .placeholder::placeholder {
   color: black;
-  font-style: italic; 
+  font-weight: 300;
 }
 

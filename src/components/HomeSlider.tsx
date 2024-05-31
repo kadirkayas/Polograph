@@ -131,7 +131,7 @@ export function HomeSlider() {
             <div className="text-black-600 text-base mx-20 mt-10 sm:hidden" >
                 <p className="mb-3">Mailing List</p>
                 <div className="flex">
-                    <input type="text" placeholder="Your Email" className="h-10 bg-transparent placeholder border border-black text-black text-sm font-thin p-2 w-full focus:outline-none focus:ring-0 "/>
+                    <input type="text" placeholder="Your Email" className="h-10 bg-transparent placeholder border border-black text-black text-sm font-light p-2 w-full focus:outline-none focus:ring-0 "/>
                     <button className="h-10 flex justify-center items-center border-b border-t border-r border-black w-20">
                     <svg fill="#000000" className="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 330">
                         <path id="XMLID_222_" d="M250.606,154.389l-150-149.996c-5.857-5.858-15.355-5.858-21.213,0.001

@@ -15,6 +15,16 @@ const config: Config = {
         '8rem': '8rem',
         '6rem': '6rem',
       },
+      height: {
+        '16rem': '16rem',
+        '28rem': '28rem',
+        '32rem': '32rem',
+        '36rem': '36rem',
+      },
+      lineHeight: {
+        '3rem': '3rem',
+        '4rem': '4rem',       
+      }
     },
   },
   plugins: [],

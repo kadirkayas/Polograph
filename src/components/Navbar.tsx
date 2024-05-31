@@ -14,10 +14,10 @@ export function NavbarComponent() {
             <div className="flex justify-between items-center" >
                 {!isOpen?
                 <div className='m-3 '>
-                    <a href="" className="navbar-link">Home</a>
-                    <a href="" className="navbar-link">About</a>
-                    <a href="" className="navbar-link">Service</a>
-                    <a href="" className="navbar-link">Contact</a>
+                    <a href="/" className="navbar-link">Home</a>
+                    <a href="/about" className="navbar-link">About</a>
+                    <a href="/service" className="navbar-link">Service</a>
+                    <a href="/contact" className="navbar-link">Contact</a>
                 </div>
                 : null}
 
