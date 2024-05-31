@@ -6,7 +6,7 @@ export function HomeSlider() {
             <div className="grid grid-cols-3 mx-16 mt-32 border-y  border-black font-mono ">
                 <div className="sticky top-0 h-screen hidden md:block">
                     <div className="  p-3 md:text-2xl lg:text-3xl"  >
-                    Est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla
+                    Est le faux texte standard de l&apos;imprimerie depuis les années 1500, quand un imprimeur anonyme assembla
                     </div>
                     <div className="mt-3 text-black-600 text-base mr-1" >
                         <p className="mb-3">Mailing List</p>
@@ -83,7 +83,7 @@ export function HomeSlider() {
                             array.map(() => 
                             <div className="flex justify-center">
                                 <p className="text-2xl font-bold ">
-                                    l'imprimerie
+                                    l&apos;imprimerie
                                 </p>
                             </div>)
                         }
@@ -92,7 +92,7 @@ export function HomeSlider() {
                     <div className="h-80 flex flex-col justify-center items-center border-b border-black">
                         <div className="p-4 flex flex-col justify-center ">
                             <p className="text-center text-xl font-medium">
-                            "On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte."
+                            &quotOn sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L&aposavantage du Lorem Ipsum sur un texte générique comme &aposDu texte.&quot
 
                             </p>
                             <div className="mt-14">

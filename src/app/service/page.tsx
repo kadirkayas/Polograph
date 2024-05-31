@@ -13,7 +13,7 @@ export default function Service() {
                     <div className="border-b border-black p-10">
                         <div className="h-28rem pt-36 text-xl">
                             <h1 className="text-4xl py-5">Édition</h1>
-                            <p className="py-3">Donnez une pause à vos yeux. Que vous ayez besoin d'une relecture rapide ou d'une révision approfondie, nous sommes là pour vous.</p>
+                            <p className="py-3">Donnez une pause à vos yeux. Que vous ayez besoin d&aposune relecture rapide ou d&aposune révision approfondie, nous sommes là pour vous.</p>
                             <div className="flex items-center ml-2 text-lg " >
                                 <svg width="20px" height="20px" viewBox="0 -0.5 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg">
                                     <defs></defs>
@@ -62,8 +62,8 @@ export default function Service() {
 
                     <div className="border-b border-black p-10">
                         <div className="h-28rem pt-36 text-xl">
-                            <h1 className="text-4xl py-5">Mais S'est </h1>
-                            <p className="py-3">depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais.</p>
+                            <h1 className="text-4xl py-5">Mais S&aposest </h1>
+                            <p className="py-3">depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n&aposa pas fait que survivre cinq siècles, mais.</p>
                             <div className="flex items-center ml-2 text-lg text-thin" >
                                 <svg width="20px" height="20px" viewBox="0 0 512 512"  xmlns="http://www.w3.org/2000/svg">
                                 <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
