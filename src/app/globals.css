@@ -5,15 +5,7 @@
 
 body{
   font-family: 'Courier New', Courier, monospace;
-}
-.home{
-  background: linear-gradient(to right, #e98fe9, #f890f8, #ed7cb5, #f3349a, #ed794e);
-}
-.about{
-  background: linear-gradient(to right, #f0b82d, #f37024, #e50914, #de0411, #f32c36);
-}
-.service{
-  background: linear-gradient(to right, #00bfff, #80dfff, #c0e7ff, #f0f0b4, #f0e68c);
+  animation: test 1s ease-in-out;
 }
 @media (max-width: 1200px) {
   html {
@@ -32,26 +24,32 @@ body{
       font-size: 11.2px; 
   }
 }
+.home{
+  animation: test 1s ease-in-out;
+}
+
+@keyframes test{
+  0%{
+    opacity: 0.6;
+  }
+  50%{
+    opacity: 0.8;
+  }
+  100%{
+    opacity: 1;
+  }
+}
 
 /*NAVBAR*/
-.w-80{
-  width: 80%;
-}
 .navbar-link {
   color: black;
   font-size: 1.2rem;
   position: fixed;
-  padding: 10px;
   right: 0;
   text-decoration: none;
   position: relative;
-  transition: right 0.5s; /*not run? */
 }
-.navbar-link:hover {
-  text-decoration: none;
-  top: -0.2px;
-  transition: top 3s ease-in-out;
-}
+
 /*Footer*/
 .footer-link{
   padding: 10px;

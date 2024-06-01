@@ -24,7 +24,13 @@ const config: Config = {
       lineHeight: {
         '3rem': '3rem',
         '4rem': '4rem',       
-      }
+      },
+      backgroundImage: {
+        'contact': 'linear-gradient(to right, #FFFFE0, #FFFF00, #DFFF00, #9ACD32, #32CD32)',
+        'home': 'linear-gradient(to right, #e98fe9, #f890f8, #ed7cb5, #f3349a, #ed794e)',
+        'about': 'linear-gradient(to right, #f0b82d, #f37024, #e50914, #de0411, #f32c36)',
+        'service': 'linear-gradient(to right, #00bfff, #80dfff, #c0e7ff, #f0f0b4, #f0e68c)',
+      },
     },
   },
   plugins: [],
